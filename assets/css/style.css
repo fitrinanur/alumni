@@ -1,0 +1,200 @@
+body{
+    /*background-image: url('../images/pattern.png');*/
+    /*background-color: #ffffff;*/
+
+    background: url("../images/pattern.png") no-repeat center, linear-gradient(#ffffff, #020202, transparent) ;  /* fallback */
+    background: no-repeat;
+    background-attachment: fixed;
+    width: 100%!important;
+}
+/*.header-banner {*/
+    /*background-color: #F4F4F4;*/
+
+    /*!*background-image: url('../images/pattern.png');*!*/
+    /*background-position: cover;*/
+    /*background-repeat: repeat;*/
+    /*width: 100%;*/
+    /*height: 180px;*/
+/*}*/
+.logo {
+    background-color: transparent;
+    /*background-image: url('../images/logo.png');*/
+    /*background-position: center top;*/
+    /*background-repeat: no-repeat;*/
+    position: relative;
+    margin-left:70px;
+    top: 10px;
+    height: 150px;
+    width: 500px;
+    margin-bottom: 5px;
+}
+.logo img {
+    margin-bottom: 5px;
+}
+.login {
+    font-family: 'Roboto',sans-serif;
+    background-color: transparent;
+    background-position: center top;
+    position: relative;
+    float: right;
+    top:50px;
+    height: 72px;
+}
+.login .form-group p .signup ,.login .form-group p .forget-pass{
+    float: right;
+    color: #42B549
+    font-family: 'Roboto',sans-serif;
+}
+.login button {
+    margin-top: -30px;
+    background-color: #42B549;
+    color: #fff;
+}
+.login input[type="text"], .login input[type="password"]{
+    width:150px;
+}
+.slash{
+    background-color: #42B549;
+    padding: 1px;
+    box-shadow: 1px solid #212121;
+}
+.navbar-default {
+    background-color: #42B549 ;
+}
+.navbar-default .collapse ul > li  a{
+    color: #FEFF31;
+    font-family: 'Roboto',sans-serif;
+}
+#carousel-example-generic{
+    margin-top: 10px!important;
+    padding-top: 0px!important;
+}
+.carousel-indicators {
+    bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
+.carousel .item {
+    background-color: #2aabd2;
+    min-height: 10px;
+    height: 50%;
+    width:100%;
+}
+.carousel-caption h3,
+.carousel .icon-container,
+.carousel-caption button {
+    background-color: #42B549;
+
+}
+.carousel-caption h3 {
+    padding: 10px;
+    float: left;
+}
+.carousel .icon-container {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 0.5em;
+    text-align: right;
+    border-radius: 50%;
+    float: left;
+
+
+}
+.carousel-caption button {
+    border-color:#42B549;
+    margin-top: 1em;
+}
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+    animation-delay: 1s;
+}
+.carousel-caption h3:nth-child(2) {
+    animation-delay: 2s;
+}
+.carousel-caption h3:nth-child(3) {
+    animation-delay: 3s;
+}
+
+.title-section {
+    background-color: #42B549;
+    padding: 0 0 0.05em 0;
+
+}
+.title-section h3 {
+    font-size: 25px;
+    color: #FFFD33;
+    padding: 8px 5px 0px 8px;
+    font-family: 'Roboto',sans-serif;
+}
+.announcement ul, .news ul {
+    margin-top: 0px!important;
+}
+.announcement ul > li h4, .news ul > li h4 {
+    margin-top: -2px;
+    margin-bottom: 0px !important;
+
+}
+.announcement ul > li small, .news ul > li small {
+    color: #000;
+}
+.announcement ul > li > p, .news ul > li > p {
+    margin-top: 10px !important;
+    text-align: justify;
+}
+.announcement  .btn  , .news ul > li > p > a .btn .btn-primary {
+    ;
+}
+.total-alumni {
+    float: right;
+    font-size: 14px;
+    background-color: #DA251C;
+    color: #fff;
+    padding:6px;
+    margin-top: -6px;
+    font-family: 'Roboto',sans-serif;
+}
+.content-detail {
+    background-color: #fff;
+    padding:10px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+
+}
+.content-detail h2 {
+    background-color: #fff;
+    padding:10px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+
+}
+.content-detail small {
+     font-family: 'Roboto', sans-serif;
+     padding: 5px;
+
+     display: block;
+     margin-top: -15px;
+ }
+.content-detail img {
+    display: block;
+    margin-left:100px;
+    padding: 10px;
+
+}
+.footer {
+    background-color: #42B549;
+    padding: 7px;
+}
+.footer p {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.footer p a{
+    color: #fff;
+}
+
