@@ -10,7 +10,7 @@ div, article, section, header, footer, nav, li {
     visibility:hidden; /* For clearing */
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 
 }
@@ -33,12 +33,10 @@ body{
 
 */
 p {
-    font-size: 1em; /* 16px */
     line-height: 1.5; /* 24px */
-    margin: 0 0 1.5em 0;
 }
+
 ul, ol {
-    font-size: 1.125em; /* 18px */
     line-height: 1.5; /* 24px */
     margin: 0 0 1.875em 0;
 }
@@ -221,14 +219,21 @@ em {
 #headerwrap input[type=submit]:hover, #headerwrap input[type=submit]:active {
     background: #25cab3 !important;
 }
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:2px !important;
+    padding-bottom:0 !important;
+    height: 28px;
+}
+.navbar {min-height:28px !important;}
+
 .navbar-fixed-top .container {
     /* Uncomment to make nav expand full width */
     	/*width: auto; */
+
 }
 .navbar-brand {
-    margin-left:0;
-    padding: 0;
-    margin-top:1.325em !important;
+    padding: 0 0 0 10px;
+    
 }
 .navbar-brand a {
     padding:0;
@@ -250,9 +255,8 @@ em {
     min-height: 3.75em;
 }
 .navbar-inverse{
-    background-repeat: repeat;
     background-color: #54A892;
-    border-color: #ffffff;
+    border-color: #54A892;
 }
 .navbar-wrapper {
     overflow:hidden;/* No fixed height, will break collapsible nav */
@@ -261,7 +265,9 @@ em {
 .navbar-collapse ul > li > a {
     font-weight: normal;
     font-size: 0,875em;
-    margin-top: 0.55em;
+    padding-top: 20px!important;
+    margin-top: 0.5em;
+    margin-bottom: 0px!important;
     color: #fff !important;
 }
 
